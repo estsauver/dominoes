@@ -13,6 +13,7 @@
 		E06EDF7C1A210B16002FB463 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E06EDF7B1A210B16002FB463 /* Images.xcassets */; };
 		E06EDF7F1A210B16002FB463 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E06EDF7D1A210B16002FB463 /* LaunchScreen.xib */; };
 		E06EDF8B1A210B16002FB463 /* dominoesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06EDF8A1A210B16002FB463 /* dominoesTests.swift */; };
+		E0C3E4BB1A225E9700200303 /* HouseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C3E4BA1A225E9700200303 /* HouseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		E06EDF841A210B16002FB463 /* dominoesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dominoesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E06EDF891A210B16002FB463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E06EDF8A1A210B16002FB463 /* dominoesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dominoesTests.swift; sourceTree = "<group>"; };
+		E0C3E4BA1A225E9700200303 /* HouseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HouseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				E06EDF741A210B16002FB463 /* AppDelegate.swift */,
 				E06EDF761A210B16002FB463 /* ViewController.swift */,
 				E06EDF781A210B16002FB463 /* Main.storyboard */,
+				E0C3E4BA1A225E9700200303 /* HouseView.swift */,
 				E06EDF7B1A210B16002FB463 /* Images.xcassets */,
 				E06EDF7D1A210B16002FB463 /* LaunchScreen.xib */,
 				E06EDF721A210B16002FB463 /* Supporting Files */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E06EDF771A210B16002FB463 /* ViewController.swift in Sources */,
+				E0C3E4BB1A225E9700200303 /* HouseView.swift in Sources */,
 				E06EDF751A210B16002FB463 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +343,7 @@
 				INFOPLIST_FILE = dominoes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -349,6 +354,7 @@
 				INFOPLIST_FILE = dominoes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -405,6 +411,7 @@
 				E06EDF901A210B16002FB463 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E06EDF911A210B16002FB463 /* Build configuration list for PBXNativeTarget "dominoesTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +420,7 @@
 				E06EDF931A210B16002FB463 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
